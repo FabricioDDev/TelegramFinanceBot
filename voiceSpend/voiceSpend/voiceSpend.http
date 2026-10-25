@@ -1,0 +1,6 @@
+@voiceSpend_HostAddress = http://localhost:5037
+
+GET {{voiceSpend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
