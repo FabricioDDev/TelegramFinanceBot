@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace voiceSpend.Dominio.Entidades
 {
-    internal class EstadoTransaccion
+    public enum EstadoTransaccion
     {
-        public enum EstadoTrans
-        {
-            Pendiente,
-            Confirmado,
-            Cancelado,
-            Eliminado
-        }
+        Pendiente,
+        Confirmado,
+        Cancelado,
+        Eliminado
     }
 }

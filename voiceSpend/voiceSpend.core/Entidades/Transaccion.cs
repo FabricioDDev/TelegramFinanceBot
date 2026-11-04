@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace voiceSpend.Dominio.Entidades
 {
-    internal class Transaccion
+    public class Transaccion
     {
-        public int IdTransaccion { get; set; }
+        public int Id { get; set; }
         public long IdUsuarioTelegram { get; set; }
         public Usuario Usuario { get; set; } = null!;
         public decimal Monto { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace voiceSpend.Dominio.Entidades
 {
-    internal class Categoria
+    public class Categoria
     {
         public int Id { get; set; }
         public string Nombre { get; set; } = "";
